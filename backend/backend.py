@@ -19,6 +19,11 @@ virus_treatment = {
         "symptoms": ["continous stool", "cough", "shivering and feather dropping in birds and weakness in other"],
         "treatment": ["increase hygiene", "cholera and fever medicatioons"]
     },
+    "marek,gumboro,e-coli": {
+        "symptoms": ["difficulty defecating", "lost appetite", "twisted neck"],
+        "treatment": ["vaccinate against marek,gumboro,e-coli", "maintain proper hygiene", "antibiotics"]
+    },
+    
     }
 
 def get_virus_treatment(symptoms):
