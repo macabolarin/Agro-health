@@ -23,7 +23,7 @@ virus_treatment = {
         "symptoms": ["difficulty defecating", "lost appetite", "twisted neck"],
         "treatment": ["vaccinate against marek,gumboro,e-coli", "maintain proper hygiene", "antibiotics"]
     },
-    
+
     }
 
 def get_virus_treatment(symptoms):
@@ -41,7 +41,7 @@ def main():
         for item in treatment:
             print(f"- {item}")
     else:
-        print("no matching virus found. please consult a doctor.")
+        print("new virus alert!!!!.")
 
     
     
